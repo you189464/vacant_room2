@@ -2,7 +2,7 @@ require 'sinatra'
 require 'nokogiri'
 require 'open-uri'
 
-get '/' do
+get '/68z9jcGaaehs4gHF7xThEmkanuejx37tpDsyCkNx9fnyZfXgvd' do
   send_file File.join(settings.public_folder, 'index.html')
 end
 
