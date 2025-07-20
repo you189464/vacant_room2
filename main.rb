@@ -3,8 +3,7 @@ require 'nokogiri'
 require 'open-uri'
 
 get '/' do
-  # send_file File.join(settings.public_folder, 'index.html')
-  "Hello, world! This is a simple Sinatra app."
+  send_file File.join(settings.public_folder, 'index.html')
 end
 
 post "/fetch" do
